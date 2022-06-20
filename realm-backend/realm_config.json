@@ -1,6 +1,8 @@
 {
     "config_version": 20210101,
+    "app_id": "mongo-realm-next-tasks-ixggk",
     "name": "mongo-realm-next-tasks",
     "location": "US-VA",
-    "deployment_model": "GLOBAL"
+    "deployment_model": "GLOBAL",
+    "environment": "production"
 }
