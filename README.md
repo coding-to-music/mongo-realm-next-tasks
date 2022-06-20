@@ -6,14 +6,13 @@ https://github.com/coding-to-music/mongo-realm-next-tasks
 
 https://mongo-realm-next-tasks.vercel.app
 
-From / By
+From / By https://github.com/VictorDronov/Task
+
+http://task-flame.vercel.app
 
 ## Environment variables:
 
 ```java
-const { Expo } = require("expo-server-sdk");
-let expo = new Expo({ accessToken: context.values.get("expoKey") });
-
 realm-backend/realm_config.json
 {
     "config_version": 20210101,
@@ -22,13 +21,6 @@ realm-backend/realm_config.json
     "location": "US-VA",
     "deployment_model": "GLOBAL",
     "environment": "production"
-}
-
-realm-backend/values/expoKey.json
-{
-    "name": "expoKey",
-    "value": "expo",
-    "from_secret": true
 }
 
 realm-backend/data_sources/mongodb-atlas/config.json
