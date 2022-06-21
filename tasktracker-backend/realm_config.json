@@ -1,0 +1,9 @@
+{
+    "app_id": "tasktracker-bmumi",
+    "config_version": 20210101,
+    "name": "tasktracker",
+    "location": "US-VA",
+    "provider_region": "aws-us-east-1",
+    "deployment_model": "GLOBAL",
+    "environment": "production"
+}
