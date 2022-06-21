@@ -8,10 +8,11 @@
     "start": "next start",
     "lint": "next lint",
     "vercel": "npm run deploy && vercel --prod",
-    "mongohost": "npm run deploy && npm run build && cp -a ./build/ ./hosting/files && realm-cli push --remote=tasktracker-bmumi --include-hosting",
+    "mongohost": "npm run deploy && npm run build && cp -a ./build/ ./hosting/files && realm-cli push --remote=mongo-realm-netflix-search-gstvq --include-hosting",
     "deploy": "git add . && git commit -m Build && git push",
     "realm:init": "npm run deploy && cd ./realm-backend && realm-cli app init",
-    "deploy:backend": "npm run deploy && cd ./realm-backend && realm-cli push"
+    "realm:pull": "npm run deploy && realm-cli pull",
+    "realm:push": "npm run deploy && cd ./realm-backend && realm-cli push"
   },
   "dependencies": {
     "mongodb": "^3.5.9",
